@@ -8,15 +8,18 @@ The stakeholder, Beks, needs help in creating a binary classifier of predicting 
 * Variables are neither targets nor features removed from the input data: EIN AND NAME
 ### Compiling, Training, and Evaluating the Model
 * First attempt used two hidden layers (80 neurons and 30 neurons).  Activation for these hidden layers was "relu".  The outer layer was set to "sigmoid"
-![alt text]()
+![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/attempt_orginal_layers1.jpg)
+![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/attempt1layer2.jpg)
 * I was unable to achieve the target level of 75%.  The first attempt was at 65%.  I was only able to achieve 72.5% accuracy. 
  
- Original Attempt 
- ![alt text]()
-last Attempt
- ![alt text]()
+Original Attempt 
+ ![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/attemptacc_score.jpg)
+  
+Last Attempt
+ ![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/last_acc_score.jpg)
 * I increased the number of hidden layers and associated neurons to help increase accuracy.  
-![alt text]()
+![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/last_attempt_layers.jpg)
+![alt text](https://github.com/bmliddicoat/Neural_Network_Charity_Analysis/blob/e84fa1b80afff2f762b14fcf106237e97b978d48/Images/last%20attempt%20layer%202.jpg)
 # Summary: 
 The deep learning model was unable to achieve the desired level of 75% accuracy.  From the first attempt to last attempt, there was increase of 7% (65% TO 72.5%).  If another attempt was done, adjusting the data to determine outliers, use different activation functions and manipulating the number of epochs to the training program.  
 
